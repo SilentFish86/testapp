@@ -4,7 +4,7 @@ from testapp import *
 app = Dash(__name__)
 app.layout = html.Div([
     github_info_header(),
-    html.Img(src="assets/picture1.jfif")
+    html.Img(src="assets/picture2.jpg")
 ])
 
 if __name__ == '__main__':
